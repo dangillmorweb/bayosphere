@@ -16,42 +16,9 @@
 	<div id="login">
 		<h1><a href="https://wordpress.org/" title="Powered by WordPress" tabindex="-1">Bayosphere</a></h1>
 	
-<form name="loginform" id="loginform" action="http://bayosphere.com/wp-login.php" method="post">
-	<p>
-		<label for="user_login">Username or Email<br />
-		<input type="text" name="log" id="user_login" class="input" value="" size="20" /></label>
-	</p>
-	<p>
-		<label for="user_pass">Password<br />
-		<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" /></label>
-	</p>
-		<p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> Remember Me</label></p>
-	<p class="submit">
-		<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Log In" />
-		<input type="hidden" name="redirect_to" value="http://bayosphere.com/wp-admin/" />
-		<input type="hidden" name="testcookie" value="1" />
-	</p>
-</form>
+There's no login anymore, as this site is now static.
 
-<p id="nav">
-	<a href="http://bayosphere.com/wp-login.php?action=lostpassword">Lost your password?</a>
-</p>
-
-<script type="text/javascript">
-function wp_attempt_focus(){
-setTimeout( function(){ try{
-d = document.getElementById('user_login');
-d.focus();
-d.select();
-} catch(e){}
-}, 200);
-}
-
-wp_attempt_focus();
-if(typeof wpOnload=='function')wpOnload();
-</script>
-
-	<p id="backtoblog"><a href="http://bayosphere.com/">&larr; Back to Bayosphere</a></p>
+	<p id="backtoblog"><a href="https://bayosphere.com/">&larr; Back to Bayosphere</a></p>
 	
 	</div>
 
