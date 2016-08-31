@@ -156,6 +156,7 @@ code {
 	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
+#respond, .comment-respond {display:none;}
 
 /* =Structure
 -------------------------------------------------------------- */
